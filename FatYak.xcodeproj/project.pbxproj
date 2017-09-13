@@ -7,12 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46AB95C81F66EE9E00D7AF56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AB95C71F66EE9E00D7AF56 /* AppDelegate.swift */; };
-		46AB95CA1F66EE9E00D7AF56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AB95C91F66EE9E00D7AF56 /* ViewController.swift */; };
-		46AB95CD1F66EE9E00D7AF56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46AB95CB1F66EE9E00D7AF56 /* Main.storyboard */; };
-		46AB95CF1F66EE9E00D7AF56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AB95CE1F66EE9E00D7AF56 /* Images.xcassets */; };
-		46AB95D21F66EE9E00D7AF56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46AB95D01F66EE9E00D7AF56 /* LaunchScreen.xib */; };
 		46AB95DE1F66EE9E00D7AF56 /* FatYakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AB95DD1F66EE9E00D7AF56 /* FatYakTests.swift */; };
+		46AB95F91F68262C00D7AF56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AB95ED1F68262C00D7AF56 /* ViewController.swift */; };
+		46AB95FA1F68262C00D7AF56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AB95EF1F68262C00D7AF56 /* AppDelegate.swift */; };
+		46AB95FB1F68262C00D7AF56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AB95F11F68262C00D7AF56 /* Images.xcassets */; };
+		46AB95FD1F68262C00D7AF56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46AB95F51F68262C00D7AF56 /* Main.storyboard */; };
+		46AB95FE1F68262C00D7AF56 /* IdeaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46AB95F71F68262C00D7AF56 /* IdeaCollectionViewCell.xib */; };
+		46AB95FF1F68262C00D7AF56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46AB95F81F68262C00D7AF56 /* LaunchScreen.xib */; };
+		46AB96061F693A0300D7AF56 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 46AB96041F693A0300D7AF56 /* Podfile */; };
+		46AB964C1F69422700D7AF56 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = 46AB960B1F69422700D7AF56 /* Manifest.lock */; };
+		46AB964D1F69422700D7AF56 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 46AB960D1F69422700D7AF56 /* LICENSE */; };
+		46AB964E1F69422700D7AF56 /* MDCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB96111F69422700D7AF56 /* MDCGeometry.m */; };
+		46AB964F1F69422700D7AF56 /* MDCViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB96141F69422700D7AF56 /* MDCViewState.m */; };
+		46AB96501F69422700D7AF56 /* UIColor+MDCRGB8Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB96161F69422700D7AF56 /* UIColor+MDCRGB8Bit.m */; };
+		46AB96511F69422700D7AF56 /* UIView+MDCBorderedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB96191F69422700D7AF56 /* UIView+MDCBorderedLabel.m */; };
+		46AB96521F69422700D7AF56 /* MDCSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB961E1F69422700D7AF56 /* MDCSwipeOptions.m */; };
+		46AB96531F69422700D7AF56 /* MDCSwipeToChooseViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB96201F69422700D7AF56 /* MDCSwipeToChooseViewOptions.m */; };
+		46AB96541F69422700D7AF56 /* MDCPanState.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB96231F69422700D7AF56 /* MDCPanState.m */; };
+		46AB96551F69422700D7AF56 /* MDCSwipeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB96261F69422700D7AF56 /* MDCSwipeResult.m */; };
+		46AB96561F69422700D7AF56 /* MDCSwipeToChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB962A1F69422700D7AF56 /* MDCSwipeToChooseView.m */; };
+		46AB96571F69422700D7AF56 /* UIView+MDCSwipeToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB962C1F69422700D7AF56 /* UIView+MDCSwipeToChoose.m */; };
+		46AB96581F69422700D7AF56 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 46AB962D1F69422700D7AF56 /* README.md */; };
+		46AB96591F69422700D7AF56 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46AB96301F69422700D7AF56 /* Info.plist */; };
+		46AB965A1F69422700D7AF56 /* MDCSwipeToChoose-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB96311F69422700D7AF56 /* MDCSwipeToChoose-dummy.m */; };
+		46AB965B1F69422700D7AF56 /* MDCSwipeToChoose.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 46AB96341F69422700D7AF56 /* MDCSwipeToChoose.modulemap */; };
+		46AB965C1F69422700D7AF56 /* MDCSwipeToChoose.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 46AB96351F69422700D7AF56 /* MDCSwipeToChoose.xcconfig */; };
+		46AB965D1F69422700D7AF56 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46AB96371F69422700D7AF56 /* Info.plist */; };
+		46AB965E1F69422700D7AF56 /* Pods-FatYak-acknowledgements.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 46AB96381F69422700D7AF56 /* Pods-FatYak-acknowledgements.markdown */; };
+		46AB965F1F69422700D7AF56 /* Pods-FatYak-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46AB96391F69422700D7AF56 /* Pods-FatYak-acknowledgements.plist */; };
+		46AB96601F69422700D7AF56 /* Pods-FatYak-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB963A1F69422700D7AF56 /* Pods-FatYak-dummy.m */; };
+		46AB96611F69422700D7AF56 /* Pods-FatYak-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 46AB963B1F69422700D7AF56 /* Pods-FatYak-frameworks.sh */; };
+		46AB96621F69422700D7AF56 /* Pods-FatYak-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = 46AB963C1F69422700D7AF56 /* Pods-FatYak-resources.sh */; };
+		46AB96631F69422700D7AF56 /* Pods-FatYak.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 46AB963E1F69422700D7AF56 /* Pods-FatYak.debug.xcconfig */; };
+		46AB96641F69422700D7AF56 /* Pods-FatYak.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 46AB963F1F69422700D7AF56 /* Pods-FatYak.modulemap */; };
+		46AB96651F69422700D7AF56 /* Pods-FatYak.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 46AB96401F69422700D7AF56 /* Pods-FatYak.release.xcconfig */; };
+		46AB96661F69422700D7AF56 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46AB96421F69422700D7AF56 /* Info.plist */; };
+		46AB96671F69422700D7AF56 /* Pods-FatYakTests-acknowledgements.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 46AB96431F69422700D7AF56 /* Pods-FatYakTests-acknowledgements.markdown */; };
+		46AB96681F69422700D7AF56 /* Pods-FatYakTests-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46AB96441F69422700D7AF56 /* Pods-FatYakTests-acknowledgements.plist */; };
+		46AB96691F69422700D7AF56 /* Pods-FatYakTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AB96451F69422700D7AF56 /* Pods-FatYakTests-dummy.m */; };
+		46AB966A1F69422700D7AF56 /* Pods-FatYakTests-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 46AB96461F69422700D7AF56 /* Pods-FatYakTests-frameworks.sh */; };
+		46AB966B1F69422700D7AF56 /* Pods-FatYakTests-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = 46AB96471F69422700D7AF56 /* Pods-FatYakTests-resources.sh */; };
+		46AB966C1F69422700D7AF56 /* Pods-FatYakTests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 46AB96491F69422700D7AF56 /* Pods-FatYakTests.debug.xcconfig */; };
+		46AB966D1F69422700D7AF56 /* Pods-FatYakTests.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = 46AB964A1F69422700D7AF56 /* Pods-FatYakTests.modulemap */; };
+		46AB966E1F69422700D7AF56 /* Pods-FatYakTests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 46AB964B1F69422700D7AF56 /* Pods-FatYakTests.release.xcconfig */; };
+		B2F9E29E0BF96C39BB649988 /* Pods_FatYak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017080E514CED0BA3F6CDB1D /* Pods_FatYak.framework */; };
+		E8D2FE9324BADEB03D3DF4CC /* Pods_FatYakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23056CCEE99AC78BC9E76917 /* Pods_FatYakTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +65,77 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017080E514CED0BA3F6CDB1D /* Pods_FatYak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FatYak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23056CCEE99AC78BC9E76917 /* Pods_FatYakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FatYakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3E3BA3B17C3F381EBC4656 /* Pods-FatYak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FatYak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FatYak/Pods-FatYak.debug.xcconfig"; sourceTree = "<group>"; };
 		46AB95C21F66EE9E00D7AF56 /* FatYak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FatYak.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		46AB95C61F66EE9E00D7AF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46AB95C71F66EE9E00D7AF56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46AB95C91F66EE9E00D7AF56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46AB95CC1F66EE9E00D7AF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		46AB95CE1F66EE9E00D7AF56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		46AB95D11F66EE9E00D7AF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		46AB95D71F66EE9E00D7AF56 /* FatYakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FatYakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46AB95DC1F66EE9E00D7AF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46AB95DD1F66EE9E00D7AF56 /* FatYakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatYakTests.swift; sourceTree = "<group>"; };
+		46AB95ED1F68262C00D7AF56 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46AB95EF1F68262C00D7AF56 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46AB95F11F68262C00D7AF56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46AB95F51F68262C00D7AF56 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		46AB95F71F68262C00D7AF56 /* IdeaCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IdeaCollectionViewCell.xib; sourceTree = "<group>"; };
+		46AB95F81F68262C00D7AF56 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		46AB96001F68268100D7AF56 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AB96041F693A0300D7AF56 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		46AB96081F69415A00D7AF56 /* FatYak_Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FatYak_Bridging_Header.h; sourceTree = "<group>"; };
+		46AB960B1F69422700D7AF56 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Manifest.lock; path = Pods/Manifest.lock; sourceTree = "<group>"; };
+		46AB960D1F69422700D7AF56 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		46AB96101F69422700D7AF56 /* MDCGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCGeometry.h; sourceTree = "<group>"; };
+		46AB96111F69422700D7AF56 /* MDCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCGeometry.m; sourceTree = "<group>"; };
+		46AB96131F69422700D7AF56 /* MDCViewState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCViewState.h; sourceTree = "<group>"; };
+		46AB96141F69422700D7AF56 /* MDCViewState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCViewState.m; sourceTree = "<group>"; };
+		46AB96151F69422700D7AF56 /* UIColor+MDCRGB8Bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MDCRGB8Bit.h"; sourceTree = "<group>"; };
+		46AB96161F69422700D7AF56 /* UIColor+MDCRGB8Bit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MDCRGB8Bit.m"; sourceTree = "<group>"; };
+		46AB96181F69422700D7AF56 /* UIView+MDCBorderedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDCBorderedLabel.h"; sourceTree = "<group>"; };
+		46AB96191F69422700D7AF56 /* UIView+MDCBorderedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDCBorderedLabel.m"; sourceTree = "<group>"; };
+		46AB961B1F69422700D7AF56 /* MDCSwipeToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChoose.h; sourceTree = "<group>"; };
+		46AB961D1F69422700D7AF56 /* MDCSwipeOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeOptions.h; sourceTree = "<group>"; };
+		46AB961E1F69422700D7AF56 /* MDCSwipeOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeOptions.m; sourceTree = "<group>"; };
+		46AB961F1F69422700D7AF56 /* MDCSwipeToChooseViewOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChooseViewOptions.h; sourceTree = "<group>"; };
+		46AB96201F69422700D7AF56 /* MDCSwipeToChooseViewOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeToChooseViewOptions.m; sourceTree = "<group>"; };
+		46AB96221F69422700D7AF56 /* MDCPanState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCPanState.h; sourceTree = "<group>"; };
+		46AB96231F69422700D7AF56 /* MDCPanState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCPanState.m; sourceTree = "<group>"; };
+		46AB96241F69422700D7AF56 /* MDCSwipeDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeDirection.h; sourceTree = "<group>"; };
+		46AB96251F69422700D7AF56 /* MDCSwipeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeResult.h; sourceTree = "<group>"; };
+		46AB96261F69422700D7AF56 /* MDCSwipeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeResult.m; sourceTree = "<group>"; };
+		46AB96281F69422700D7AF56 /* MDCSwipeToChooseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChooseDelegate.h; sourceTree = "<group>"; };
+		46AB96291F69422700D7AF56 /* MDCSwipeToChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChooseView.h; sourceTree = "<group>"; };
+		46AB962A1F69422700D7AF56 /* MDCSwipeToChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCSwipeToChooseView.m; sourceTree = "<group>"; };
+		46AB962B1F69422700D7AF56 /* UIView+MDCSwipeToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MDCSwipeToChoose.h"; sourceTree = "<group>"; };
+		46AB962C1F69422700D7AF56 /* UIView+MDCSwipeToChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MDCSwipeToChoose.m"; sourceTree = "<group>"; };
+		46AB962D1F69422700D7AF56 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		46AB96301F69422700D7AF56 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AB96311F69422700D7AF56 /* MDCSwipeToChoose-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MDCSwipeToChoose-dummy.m"; sourceTree = "<group>"; };
+		46AB96321F69422700D7AF56 /* MDCSwipeToChoose-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MDCSwipeToChoose-prefix.pch"; sourceTree = "<group>"; };
+		46AB96331F69422700D7AF56 /* MDCSwipeToChoose-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MDCSwipeToChoose-umbrella.h"; sourceTree = "<group>"; };
+		46AB96341F69422700D7AF56 /* MDCSwipeToChoose.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = MDCSwipeToChoose.modulemap; sourceTree = "<group>"; };
+		46AB96351F69422700D7AF56 /* MDCSwipeToChoose.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MDCSwipeToChoose.xcconfig; sourceTree = "<group>"; };
+		46AB96371F69422700D7AF56 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AB96381F69422700D7AF56 /* Pods-FatYak-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-FatYak-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46AB96391F69422700D7AF56 /* Pods-FatYak-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-FatYak-acknowledgements.plist"; sourceTree = "<group>"; };
+		46AB963A1F69422700D7AF56 /* Pods-FatYak-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-FatYak-dummy.m"; sourceTree = "<group>"; };
+		46AB963B1F69422700D7AF56 /* Pods-FatYak-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-FatYak-frameworks.sh"; sourceTree = "<group>"; };
+		46AB963C1F69422700D7AF56 /* Pods-FatYak-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-FatYak-resources.sh"; sourceTree = "<group>"; };
+		46AB963D1F69422700D7AF56 /* Pods-FatYak-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-FatYak-umbrella.h"; sourceTree = "<group>"; };
+		46AB963E1F69422700D7AF56 /* Pods-FatYak.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-FatYak.debug.xcconfig"; sourceTree = "<group>"; };
+		46AB963F1F69422700D7AF56 /* Pods-FatYak.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FatYak.modulemap"; sourceTree = "<group>"; };
+		46AB96401F69422700D7AF56 /* Pods-FatYak.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-FatYak.release.xcconfig"; sourceTree = "<group>"; };
+		46AB96421F69422700D7AF56 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AB96431F69422700D7AF56 /* Pods-FatYakTests-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-FatYakTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46AB96441F69422700D7AF56 /* Pods-FatYakTests-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-FatYakTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46AB96451F69422700D7AF56 /* Pods-FatYakTests-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-FatYakTests-dummy.m"; sourceTree = "<group>"; };
+		46AB96461F69422700D7AF56 /* Pods-FatYakTests-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-FatYakTests-frameworks.sh"; sourceTree = "<group>"; };
+		46AB96471F69422700D7AF56 /* Pods-FatYakTests-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-FatYakTests-resources.sh"; sourceTree = "<group>"; };
+		46AB96481F69422700D7AF56 /* Pods-FatYakTests-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-FatYakTests-umbrella.h"; sourceTree = "<group>"; };
+		46AB96491F69422700D7AF56 /* Pods-FatYakTests.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-FatYakTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46AB964A1F69422700D7AF56 /* Pods-FatYakTests.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FatYakTests.modulemap"; sourceTree = "<group>"; };
+		46AB964B1F69422700D7AF56 /* Pods-FatYakTests.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-FatYakTests.release.xcconfig"; sourceTree = "<group>"; };
+		60A6D84DD5DAECCE2084A330 /* Pods-FatYakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FatYakTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FatYakTests/Pods-FatYakTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB5BDCE84C5003B40AECD606 /* Pods-FatYakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FatYakTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FatYakTests/Pods-FatYakTests.release.xcconfig"; sourceTree = "<group>"; };
+		E60C00F69B35A4EC3BBB5206 /* Pods-FatYak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FatYak.release.xcconfig"; path = "Pods/Target Support Files/Pods-FatYak/Pods-FatYak.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F9E29E0BF96C39BB649988 /* Pods_FatYak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +151,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D2FE9324BADEB03D3DF4CC /* Pods_FatYakTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42CB6268F2A133347CA327A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				017080E514CED0BA3F6CDB1D /* Pods_FatYak.framework */,
+				23056CCEE99AC78BC9E76917 /* Pods_FatYakTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		46AB95B91F66EE9D00D7AF56 = {
 			isa = PBXGroup;
 			children = (
+				46AB96041F693A0300D7AF56 /* Podfile */,
 				46AB95C41F66EE9E00D7AF56 /* FatYak */,
 				46AB95DA1F66EE9E00D7AF56 /* FatYakTests */,
 				46AB95C31F66EE9E00D7AF56 /* Products */,
+				A20F008FD8FBBA51C0DEF862 /* Pods */,
+				42CB6268F2A133347CA327A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,22 +191,14 @@
 		46AB95C41F66EE9E00D7AF56 /* FatYak */ = {
 			isa = PBXGroup;
 			children = (
-				46AB95C71F66EE9E00D7AF56 /* AppDelegate.swift */,
-				46AB95C91F66EE9E00D7AF56 /* ViewController.swift */,
-				46AB95CB1F66EE9E00D7AF56 /* Main.storyboard */,
-				46AB95CE1F66EE9E00D7AF56 /* Images.xcassets */,
-				46AB95D01F66EE9E00D7AF56 /* LaunchScreen.xib */,
-				46AB95C51F66EE9E00D7AF56 /* Supporting Files */,
+				46AB95EC1F68262C00D7AF56 /* Controllers */,
+				46AB96001F68268100D7AF56 /* Info.plist */,
+				46AB95EE1F68262C00D7AF56 /* Models */,
+				46AB95F01F68262C00D7AF56 /* Supporting Files */,
+				46AB95F31F68262C00D7AF56 /* Views */,
+				46AB96081F69415A00D7AF56 /* FatYak_Bridging_Header.h */,
 			);
 			path = FatYak;
-			sourceTree = "<group>";
-		};
-		46AB95C51F66EE9E00D7AF56 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				46AB95C61F66EE9E00D7AF56 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		46AB95DA1F66EE9E00D7AF56 /* FatYakTests */ = {
@@ -112,6 +218,243 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		46AB95EC1F68262C00D7AF56 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				46AB95ED1F68262C00D7AF56 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		46AB95EE1F68262C00D7AF56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46AB95EF1F68262C00D7AF56 /* AppDelegate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46AB95F01F68262C00D7AF56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46AB95F11F68262C00D7AF56 /* Images.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46AB95F31F68262C00D7AF56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46AB95F41F68262C00D7AF56 /* Storyboards */,
+				46AB95F61F68262C00D7AF56 /* XIBs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46AB95F41F68262C00D7AF56 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				46AB95F51F68262C00D7AF56 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		46AB95F61F68262C00D7AF56 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				46AB95F71F68262C00D7AF56 /* IdeaCollectionViewCell.xib */,
+				46AB95F81F68262C00D7AF56 /* LaunchScreen.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		46AB96091F69422700D7AF56 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Headers;
+			path = Pods/Headers;
+			sourceTree = "<group>";
+		};
+		46AB960A1F69422700D7AF56 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Local Podspecs";
+			path = "Pods/Local Podspecs";
+			sourceTree = "<group>";
+		};
+		46AB960C1F69422700D7AF56 /* MDCSwipeToChoose */ = {
+			isa = PBXGroup;
+			children = (
+				46AB960D1F69422700D7AF56 /* LICENSE */,
+				46AB960E1F69422700D7AF56 /* MDCSwipeToChoose */,
+				46AB962D1F69422700D7AF56 /* README.md */,
+			);
+			name = MDCSwipeToChoose;
+			path = Pods/MDCSwipeToChoose;
+			sourceTree = "<group>";
+		};
+		46AB960E1F69422700D7AF56 /* MDCSwipeToChoose */ = {
+			isa = PBXGroup;
+			children = (
+				46AB960F1F69422700D7AF56 /* Internal */,
+				46AB961A1F69422700D7AF56 /* Public */,
+			);
+			path = MDCSwipeToChoose;
+			sourceTree = "<group>";
+		};
+		46AB960F1F69422700D7AF56 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				46AB96101F69422700D7AF56 /* MDCGeometry.h */,
+				46AB96111F69422700D7AF56 /* MDCGeometry.m */,
+				46AB96121F69422700D7AF56 /* State */,
+				46AB96151F69422700D7AF56 /* UIColor+MDCRGB8Bit.h */,
+				46AB96161F69422700D7AF56 /* UIColor+MDCRGB8Bit.m */,
+				46AB96171F69422700D7AF56 /* Views */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		46AB96121F69422700D7AF56 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				46AB96131F69422700D7AF56 /* MDCViewState.h */,
+				46AB96141F69422700D7AF56 /* MDCViewState.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		46AB96171F69422700D7AF56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46AB96181F69422700D7AF56 /* UIView+MDCBorderedLabel.h */,
+				46AB96191F69422700D7AF56 /* UIView+MDCBorderedLabel.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46AB961A1F69422700D7AF56 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				46AB961B1F69422700D7AF56 /* MDCSwipeToChoose.h */,
+				46AB961C1F69422700D7AF56 /* Options */,
+				46AB96211F69422700D7AF56 /* State */,
+				46AB96271F69422700D7AF56 /* Views */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		46AB961C1F69422700D7AF56 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				46AB961D1F69422700D7AF56 /* MDCSwipeOptions.h */,
+				46AB961E1F69422700D7AF56 /* MDCSwipeOptions.m */,
+				46AB961F1F69422700D7AF56 /* MDCSwipeToChooseViewOptions.h */,
+				46AB96201F69422700D7AF56 /* MDCSwipeToChooseViewOptions.m */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		46AB96211F69422700D7AF56 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				46AB96221F69422700D7AF56 /* MDCPanState.h */,
+				46AB96231F69422700D7AF56 /* MDCPanState.m */,
+				46AB96241F69422700D7AF56 /* MDCSwipeDirection.h */,
+				46AB96251F69422700D7AF56 /* MDCSwipeResult.h */,
+				46AB96261F69422700D7AF56 /* MDCSwipeResult.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		46AB96271F69422700D7AF56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46AB96281F69422700D7AF56 /* MDCSwipeToChooseDelegate.h */,
+				46AB96291F69422700D7AF56 /* MDCSwipeToChooseView.h */,
+				46AB962A1F69422700D7AF56 /* MDCSwipeToChooseView.m */,
+				46AB962B1F69422700D7AF56 /* UIView+MDCSwipeToChoose.h */,
+				46AB962C1F69422700D7AF56 /* UIView+MDCSwipeToChoose.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46AB962E1F69422700D7AF56 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46AB962F1F69422700D7AF56 /* MDCSwipeToChoose */,
+				46AB96361F69422700D7AF56 /* Pods-FatYak */,
+				46AB96411F69422700D7AF56 /* Pods-FatYakTests */,
+			);
+			name = "Target Support Files";
+			path = "Pods/Target Support Files";
+			sourceTree = "<group>";
+		};
+		46AB962F1F69422700D7AF56 /* MDCSwipeToChoose */ = {
+			isa = PBXGroup;
+			children = (
+				46AB96301F69422700D7AF56 /* Info.plist */,
+				46AB96311F69422700D7AF56 /* MDCSwipeToChoose-dummy.m */,
+				46AB96321F69422700D7AF56 /* MDCSwipeToChoose-prefix.pch */,
+				46AB96331F69422700D7AF56 /* MDCSwipeToChoose-umbrella.h */,
+				46AB96341F69422700D7AF56 /* MDCSwipeToChoose.modulemap */,
+				46AB96351F69422700D7AF56 /* MDCSwipeToChoose.xcconfig */,
+			);
+			path = MDCSwipeToChoose;
+			sourceTree = "<group>";
+		};
+		46AB96361F69422700D7AF56 /* Pods-FatYak */ = {
+			isa = PBXGroup;
+			children = (
+				46AB96371F69422700D7AF56 /* Info.plist */,
+				46AB96381F69422700D7AF56 /* Pods-FatYak-acknowledgements.markdown */,
+				46AB96391F69422700D7AF56 /* Pods-FatYak-acknowledgements.plist */,
+				46AB963A1F69422700D7AF56 /* Pods-FatYak-dummy.m */,
+				46AB963B1F69422700D7AF56 /* Pods-FatYak-frameworks.sh */,
+				46AB963C1F69422700D7AF56 /* Pods-FatYak-resources.sh */,
+				46AB963D1F69422700D7AF56 /* Pods-FatYak-umbrella.h */,
+				46AB963E1F69422700D7AF56 /* Pods-FatYak.debug.xcconfig */,
+				46AB963F1F69422700D7AF56 /* Pods-FatYak.modulemap */,
+				46AB96401F69422700D7AF56 /* Pods-FatYak.release.xcconfig */,
+			);
+			path = "Pods-FatYak";
+			sourceTree = "<group>";
+		};
+		46AB96411F69422700D7AF56 /* Pods-FatYakTests */ = {
+			isa = PBXGroup;
+			children = (
+				46AB96421F69422700D7AF56 /* Info.plist */,
+				46AB96431F69422700D7AF56 /* Pods-FatYakTests-acknowledgements.markdown */,
+				46AB96441F69422700D7AF56 /* Pods-FatYakTests-acknowledgements.plist */,
+				46AB96451F69422700D7AF56 /* Pods-FatYakTests-dummy.m */,
+				46AB96461F69422700D7AF56 /* Pods-FatYakTests-frameworks.sh */,
+				46AB96471F69422700D7AF56 /* Pods-FatYakTests-resources.sh */,
+				46AB96481F69422700D7AF56 /* Pods-FatYakTests-umbrella.h */,
+				46AB96491F69422700D7AF56 /* Pods-FatYakTests.debug.xcconfig */,
+				46AB964A1F69422700D7AF56 /* Pods-FatYakTests.modulemap */,
+				46AB964B1F69422700D7AF56 /* Pods-FatYakTests.release.xcconfig */,
+			);
+			path = "Pods-FatYakTests";
+			sourceTree = "<group>";
+		};
+		A20F008FD8FBBA51C0DEF862 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46AB96091F69422700D7AF56 /* Headers */,
+				46AB960A1F69422700D7AF56 /* Local Podspecs */,
+				46AB960B1F69422700D7AF56 /* Manifest.lock */,
+				46AB960C1F69422700D7AF56 /* MDCSwipeToChoose */,
+				46AB962E1F69422700D7AF56 /* Target Support Files */,
+				2F3E3BA3B17C3F381EBC4656 /* Pods-FatYak.debug.xcconfig */,
+				E60C00F69B35A4EC3BBB5206 /* Pods-FatYak.release.xcconfig */,
+				60A6D84DD5DAECCE2084A330 /* Pods-FatYakTests.debug.xcconfig */,
+				CB5BDCE84C5003B40AECD606 /* Pods-FatYakTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +462,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46AB95E11F66EE9E00D7AF56 /* Build configuration list for PBXNativeTarget "FatYak" */;
 			buildPhases = (
+				AB4E2DEB99438C80043C0A9B /* [CP] Check Pods Manifest.lock */,
 				46AB95BE1F66EE9E00D7AF56 /* Sources */,
 				46AB95BF1F66EE9E00D7AF56 /* Frameworks */,
 				46AB95C01F66EE9E00D7AF56 /* Resources */,
+				504A1EACC006FD8BA2BBFC76 /* [CP] Embed Pods Frameworks */,
+				AD7BD9E8E153F25493234E22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,9 +482,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46AB95E41F66EE9E00D7AF56 /* Build configuration list for PBXNativeTarget "FatYakTests" */;
 			buildPhases = (
+				2FA76F19DE8622833E485FB0 /* [CP] Check Pods Manifest.lock */,
 				46AB95D31F66EE9E00D7AF56 /* Sources */,
 				46AB95D41F66EE9E00D7AF56 /* Frameworks */,
 				46AB95D51F66EE9E00D7AF56 /* Resources */,
+				413E70916858DF78BE67EDBE /* [CP] Embed Pods Frameworks */,
+				0F545E6020FCCF2A0198B340 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,9 +541,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46AB95CD1F66EE9E00D7AF56 /* Main.storyboard in Resources */,
-				46AB95D21F66EE9E00D7AF56 /* LaunchScreen.xib in Resources */,
-				46AB95CF1F66EE9E00D7AF56 /* Images.xcassets in Resources */,
+				46AB96661F69422700D7AF56 /* Info.plist in Resources */,
+				46AB966E1F69422700D7AF56 /* Pods-FatYakTests.release.xcconfig in Resources */,
+				46AB96591F69422700D7AF56 /* Info.plist in Resources */,
+				46AB96681F69422700D7AF56 /* Pods-FatYakTests-acknowledgements.plist in Resources */,
+				46AB96631F69422700D7AF56 /* Pods-FatYak.debug.xcconfig in Resources */,
+				46AB96651F69422700D7AF56 /* Pods-FatYak.release.xcconfig in Resources */,
+				46AB96061F693A0300D7AF56 /* Podfile in Resources */,
+				46AB95FF1F68262C00D7AF56 /* LaunchScreen.xib in Resources */,
+				46AB95FD1F68262C00D7AF56 /* Main.storyboard in Resources */,
+				46AB965C1F69422700D7AF56 /* MDCSwipeToChoose.xcconfig in Resources */,
+				46AB96621F69422700D7AF56 /* Pods-FatYak-resources.sh in Resources */,
+				46AB965F1F69422700D7AF56 /* Pods-FatYak-acknowledgements.plist in Resources */,
+				46AB964D1F69422700D7AF56 /* LICENSE in Resources */,
+				46AB964C1F69422700D7AF56 /* Manifest.lock in Resources */,
+				46AB966C1F69422700D7AF56 /* Pods-FatYakTests.debug.xcconfig in Resources */,
+				46AB95FE1F68262C00D7AF56 /* IdeaCollectionViewCell.xib in Resources */,
+				46AB965D1F69422700D7AF56 /* Info.plist in Resources */,
+				46AB95FB1F68262C00D7AF56 /* Images.xcassets in Resources */,
+				46AB966B1F69422700D7AF56 /* Pods-FatYakTests-resources.sh in Resources */,
+				46AB96611F69422700D7AF56 /* Pods-FatYak-frameworks.sh in Resources */,
+				46AB966A1F69422700D7AF56 /* Pods-FatYakTests-frameworks.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +574,134 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F545E6020FCCF2A0198B340 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FatYakTests/Pods-FatYakTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FA76F19DE8622833E485FB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FatYakTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		413E70916858DF78BE67EDBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FatYakTests/Pods-FatYakTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		504A1EACC006FD8BA2BBFC76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FatYak/Pods-FatYak-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MDCSwipeToChoose/MDCSwipeToChoose.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDCSwipeToChoose.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FatYak/Pods-FatYak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB4E2DEB99438C80043C0A9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FatYak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD7BD9E8E153F25493234E22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FatYak/Pods-FatYak-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		46AB95BE1F66EE9E00D7AF56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46AB95CA1F66EE9E00D7AF56 /* ViewController.swift in Sources */,
-				46AB95C81F66EE9E00D7AF56 /* AppDelegate.swift in Sources */,
+				46AB96571F69422700D7AF56 /* UIView+MDCSwipeToChoose.m in Sources */,
+				46AB96601F69422700D7AF56 /* Pods-FatYak-dummy.m in Sources */,
+				46AB96641F69422700D7AF56 /* Pods-FatYak.modulemap in Sources */,
+				46AB965E1F69422700D7AF56 /* Pods-FatYak-acknowledgements.markdown in Sources */,
+				46AB965B1F69422700D7AF56 /* MDCSwipeToChoose.modulemap in Sources */,
+				46AB96541F69422700D7AF56 /* MDCPanState.m in Sources */,
+				46AB95FA1F68262C00D7AF56 /* AppDelegate.swift in Sources */,
+				46AB96551F69422700D7AF56 /* MDCSwipeResult.m in Sources */,
+				46AB96581F69422700D7AF56 /* README.md in Sources */,
+				46AB96511F69422700D7AF56 /* UIView+MDCBorderedLabel.m in Sources */,
+				46AB96691F69422700D7AF56 /* Pods-FatYakTests-dummy.m in Sources */,
+				46AB96561F69422700D7AF56 /* MDCSwipeToChooseView.m in Sources */,
+				46AB964F1F69422700D7AF56 /* MDCViewState.m in Sources */,
+				46AB965A1F69422700D7AF56 /* MDCSwipeToChoose-dummy.m in Sources */,
+				46AB95F91F68262C00D7AF56 /* ViewController.swift in Sources */,
+				46AB964E1F69422700D7AF56 /* MDCGeometry.m in Sources */,
+				46AB96521F69422700D7AF56 /* MDCSwipeOptions.m in Sources */,
+				46AB96501F69422700D7AF56 /* UIColor+MDCRGB8Bit.m in Sources */,
+				46AB96531F69422700D7AF56 /* MDCSwipeToChooseViewOptions.m in Sources */,
+				46AB96671F69422700D7AF56 /* Pods-FatYakTests-acknowledgements.markdown in Sources */,
+				46AB966D1F69422700D7AF56 /* Pods-FatYakTests.modulemap in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +722,6 @@
 			targetProxy = 46AB95D81F66EE9E00D7AF56 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		46AB95CB1F66EE9E00D7AF56 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46AB95CC1F66EE9E00D7AF56 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		46AB95D01F66EE9E00D7AF56 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46AB95D11F66EE9E00D7AF56 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		46AB95DF1F66EE9E00D7AF56 /* Debug */ = {
@@ -340,26 +809,31 @@
 		};
 		46AB95E21F66EE9E00D7AF56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3E3BA3B17C3F381EBC4656 /* Pods-FatYak.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FatYak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = FatYak/FatYak_Bridging_Header.h;
 			};
 			name = Debug;
 		};
 		46AB95E31F66EE9E00D7AF56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60C00F69B35A4EC3BBB5206 /* Pods-FatYak.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FatYak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = FatYak/FatYak_Bridging_Header.h;
 			};
 			name = Release;
 		};
 		46AB95E51F66EE9E00D7AF56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A6D84DD5DAECCE2084A330 /* Pods-FatYakTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -379,6 +853,7 @@
 		};
 		46AB95E61F66EE9E00D7AF56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5BDCE84C5003B40AECD606 /* Pods-FatYakTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -411,6 +886,7 @@
 				46AB95E31F66EE9E00D7AF56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46AB95E41F66EE9E00D7AF56 /* Build configuration list for PBXNativeTarget "FatYakTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +895,7 @@
 				46AB95E61F66EE9E00D7AF56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

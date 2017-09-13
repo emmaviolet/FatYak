@@ -1,0 +1,6 @@
+framework module Pods_FatYakTests {
+  umbrella header "Pods-FatYakTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

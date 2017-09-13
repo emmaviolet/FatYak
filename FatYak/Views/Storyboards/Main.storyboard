@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FatYak" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="MDCSwipeToChooseView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auJ-Pz-uZd">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="OLn-Q7-6Y5"/>
+                                </constraints>
+                                <color key="barTintColor" red="1" green="0.62738183990458651" blue="0.44926608042599825" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Fat Yak" id="OmX-wC-LZS"/>
+                                </items>
+                            </navigationBar>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jsF-4r-JMb">
+                                <rect key="frame" x="20" y="84" width="560" height="496"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="i_love_dick" translatesAutoresizingMaskIntoConstraints="NO" id="Aeu-Ge-cGU">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="496"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rmf-ue-g5D">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="100"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart_icon" translatesAutoresizingMaskIntoConstraints="NO" id="tjY-ZS-mnH">
+                                                <rect key="frame" x="485" y="25" width="50" height="50"/>
+                                                <color key="tintColor" red="1" green="0.20395539369999999" blue="0.19025112159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="EQo-sb-DDh"/>
+                                                    <constraint firstAttribute="height" constant="50" id="Re9-sh-B67"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book_icon" translatesAutoresizingMaskIntoConstraints="NO" id="xBn-zf-dcy">
+                                                <rect key="frame" x="25" y="25" width="50" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="8BM-FR-0Wf"/>
+                                                    <constraint firstAttribute="width" constant="50" id="JOT-uM-F7w"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.62738183989999996" blue="0.44926608039999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="4EE-6j-vW7"/>
+                                            <constraint firstAttribute="trailing" secondItem="tjY-ZS-mnH" secondAttribute="trailing" constant="25" id="EMc-IZ-2cU"/>
+                                            <constraint firstAttribute="centerY" secondItem="xBn-zf-dcy" secondAttribute="centerY" id="FF1-LH-a7Y"/>
+                                            <constraint firstAttribute="centerY" secondItem="tjY-ZS-mnH" secondAttribute="centerY" id="ZAy-RT-3yx"/>
+                                            <constraint firstItem="xBn-zf-dcy" firstAttribute="leading" secondItem="rmf-ue-g5D" secondAttribute="leading" constant="25" id="bfB-ff-eMM"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vwQ-wg-oPI">
+                                        <rect key="frame" x="0.0" y="396" width="560" height="100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="#feminist #literature #badass" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHC-KS-4F6">
+                                                <rect key="frame" x="25" y="40" width="509" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="ltj-5r-zXF"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.62738183989999996" blue="0.44926608039999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="centerX" secondItem="eHC-KS-4F6" secondAttribute="centerX" constant="0.5" id="9HI-03-WSN"/>
+                                            <constraint firstAttribute="centerY" secondItem="eHC-KS-4F6" secondAttribute="centerY" constant="-0.5" id="PVA-aI-t6L"/>
+                                            <constraint firstItem="eHC-KS-4F6" firstAttribute="leading" secondItem="vwQ-wg-oPI" secondAttribute="leading" constant="25" id="enA-KV-xXE"/>
+                                            <constraint firstAttribute="height" constant="100" id="m23-XF-Hmw"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="rmf-ue-g5D" firstAttribute="leading" secondItem="jsF-4r-JMb" secondAttribute="leading" id="1Ya-DI-ELg"/>
+                                    <constraint firstAttribute="trailing" secondItem="rmf-ue-g5D" secondAttribute="trailing" id="7Pv-pM-LDw"/>
+                                    <constraint firstAttribute="centerX" secondItem="Aeu-Ge-cGU" secondAttribute="centerX" id="Jki-Tc-wPk"/>
+                                    <constraint firstAttribute="width" secondItem="Aeu-Ge-cGU" secondAttribute="width" id="PXp-EB-cuK"/>
+                                    <constraint firstAttribute="height" secondItem="Aeu-Ge-cGU" secondAttribute="height" id="QvH-5a-JEw"/>
+                                    <constraint firstAttribute="bottom" secondItem="vwQ-wg-oPI" secondAttribute="bottom" id="ZuR-VG-ymu"/>
+                                    <constraint firstAttribute="centerY" secondItem="Aeu-Ge-cGU" secondAttribute="centerY" id="knN-za-sLJ"/>
+                                    <constraint firstItem="vwQ-wg-oPI" firstAttribute="leading" secondItem="jsF-4r-JMb" secondAttribute="leading" id="lff-w9-Tu9"/>
+                                    <constraint firstItem="rmf-ue-g5D" firstAttribute="top" secondItem="jsF-4r-JMb" secondAttribute="top" id="xws-b7-bPm"/>
+                                    <constraint firstAttribute="trailing" secondItem="vwQ-wg-oPI" secondAttribute="trailing" id="y8h-Dc-D5G"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jsF-4r-JMb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="A21-5Z-Iog"/>
+                            <constraint firstAttribute="trailing" secondItem="auJ-Pz-uZd" secondAttribute="trailing" id="Fwz-rU-Dzq"/>
+                            <constraint firstAttribute="trailing" secondItem="jsF-4r-JMb" secondAttribute="trailing" constant="20" id="HG5-GV-gHy"/>
+                            <constraint firstItem="jsF-4r-JMb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="RN6-je-WLM"/>
+                            <constraint firstItem="jsF-4r-JMb" firstAttribute="top" secondItem="auJ-Pz-uZd" secondAttribute="bottom" constant="20" id="RaZ-E4-O4t"/>
+                            <constraint firstItem="auJ-Pz-uZd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZTA-kj-yzB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jsF-4r-JMb" secondAttribute="bottom" constant="20" id="aE0-o3-rFd"/>
+                            <constraint firstItem="auJ-Pz-uZd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hn1-PZ-vL0"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="RN6-je-WLM"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="collectionContainerView" destination="jsF-4r-JMb" id="lax-Uu-jN6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="book_icon" width="1600" height="1600"/>
+        <image name="heart_icon" width="1600" height="1600"/>
+        <image name="i_love_dick" width="331" height="499"/>
+    </resources>
+</document>
